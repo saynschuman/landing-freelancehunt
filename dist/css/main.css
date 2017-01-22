@@ -300,3 +300,39 @@ section.sixth {
     background-color: #eee;
     width: 100%;
     margin-bottom: 30px; }
+  section.sixth .card {
+    margin: 20px 0; }
+  section.sixth .card-header a {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 14px;
+    font-weight: 600; }
+    section.sixth .card-header a::before {
+      content: '';
+      background-image: url(../img/arrow.svg);
+      position: absolute;
+      height: 9px;
+      width: 14px;
+      top: 5px;
+      left: -21px;
+      background-size: 100%;
+      -webkit-transform: rotate(180deg);
+              transform: rotate(180deg);
+      -webkit-transition: .3s;
+      transition: .3s; }
+    section.sixth .card-header a.collapsed::before {
+      content: '';
+      background-image: url(../img/arrow.svg);
+      position: absolute;
+      height: 9px;
+      width: 14px;
+      top: 5px;
+      left: -21px;
+      background-size: 100%;
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+      -webkit-transition: .3s;
+      transition: .3s; }
+  section.sixth .card-block {
+    color: #9B9B9B; }

@@ -352,4 +352,45 @@ section.sixth {
 		width: 100%;
 		margin-bottom: 30px;
 	}	
+	.card {
+		margin: 20px 0;
+	}
+	.card-header {
+		a {
+			position: relative;
+			color: #000;
+			text-decoration: none;
+			margin-bottom: 14px;
+			font-weight: 600;
+			&::before {
+			content: '';
+		    background-image: url(../img/arrow.svg);
+		    position: absolute;
+		    height: 9px;
+		    width: 14px;
+		    top: 5px;
+		    left: -21px;
+		    background-size: 100%;
+		    transform: rotate(180deg);
+		    transition: .3s;
+			}
+			&.collapsed::before {
+			content: '';
+		    background-image: url(../img/arrow.svg);
+		    position: absolute;
+		    height: 9px;
+		    width: 14px;
+		    top: 5px;
+		    left: -21px;
+		    background-size: 100%;	
+		    transform: rotate(0deg);
+		    transition: .3s;
+			}
+		}
+	}
+	.card-block {
+		color: #9B9B9B;
+	}	
+
+
 }
