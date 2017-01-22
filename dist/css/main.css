@@ -13,6 +13,10 @@
   font-weight: normal;
   font-style: normal; }
 
+.row {
+  margin-right: 0;
+  margin-left: 0; }
+
 body {
   font-family: Lato; }
 
@@ -36,14 +40,16 @@ body {
   border: 1px solid #fff; }
 
 .navbar-default .navbar-nav > li.create > a {
-  color: #FCA500; }
+  color: #FCA500;
+  margin-right: 100px; }
 
 .navbar-default .navbar-nav > li.sign > a {
   color: #253F50; }
 
 .navbar-default .navbar-nav > li > a {
   color: #777;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-weight: 600; }
 
 .navbar-default {
   background-color: transparent;
@@ -121,13 +127,25 @@ header .logo {
     width: auto;
     margin: 0 75px 0 0; }
   .carousel .carousel-caption .sub_2 {
-    padding: 10px 50px;
     background: #FCA500;
     text-align: center;
-    width: auto; }
+    width: auto;
+    padding: 0;
+    border: 1px solid transparent;
+    -webkit-transition: .3s;
+    transition: .3s; }
+    .carousel .carousel-caption .sub_2:hover {
+      background: rgba(255, 255, 255, 0.1);
+      -webkit-transition: .3s;
+      transition: .3s;
+      border: 1px solid #fff; }
     .carousel .carousel-caption .sub_2 a {
       font-size: 20px;
-      color: #fff; }
+      color: #fff;
+      padding: 10px 50px;
+      display: block;
+      text-decoration: none;
+      cursor: pointer; }
 
 section.first {
   padding: 50px 0; }
@@ -153,7 +171,8 @@ section.second {
     font-size: 28px; }
   section.second .sub_1 {
     color: #C69E2F;
-    font-size: 28px; }
+    font-size: 28px;
+    font-weight: 600; }
 
 section.third {
   width: 100%;
@@ -161,7 +180,7 @@ section.third {
   padding: 20px 0; }
   section.third .title {
     font-size: 60px;
-    color: #000;
+    color: #484848;
     font-family: NoeDisplay; }
   section.third .descr {
     color: #000;
@@ -198,7 +217,7 @@ section.third {
 section.fourth {
   width: 100%;
   background-color: #fff;
-  padding: 20px 0; }
+  padding: 20px 0 50px; }
   section.fourth .title {
     font-size: 60px;
     color: #969696;
@@ -209,7 +228,7 @@ section.fourth {
     padding: 30px 0;
     font-weight: 600; }
   section.fourth .divider {
-    height: 12px;
+    height: 8px;
     background-color: #eee;
     width: 100%;
     margin-bottom: 30px; }
@@ -217,15 +236,19 @@ section.fourth {
     float: left;
     margin-right: 30px; }
   section.fourth .fourth-second .tit {
-    font-size: 30px;
+    font-size: 26px;
     color: #000;
-    padding: 22px 0; }
+    padding: 22px 0;
+    text-transform: uppercase;
+    font-weight: 600; }
   section.fourth .fourth-second .divider {
     height: 5px;
     width: 70%;
     background-color: #eee;
     margin-top: 20px;
     display: block; }
+    section.fourth .fourth-second .divider:nth-child(2) {
+      margin-bottom: 30px; }
   section.fourth .fourth-second table tr th {
     line-height: 1.9;
     width: 50%; }
@@ -284,7 +307,7 @@ section.fifth {
 
 section.sixth {
   width: 100%;
-  background-color: #fff;
+  background-color: #F4F4F4;
   padding: 20px 0; }
   section.sixth .title {
     font-size: 60px;
@@ -306,8 +329,9 @@ section.sixth {
     position: relative;
     color: #000;
     text-decoration: none;
-    margin-bottom: 14px;
-    font-weight: 600; }
+    margin-bottom: 0;
+    font-weight: 600;
+    line-height: 1.5; }
     section.sixth .card-header a::before {
       content: '';
       background-image: url(../img/arrow.svg);
@@ -336,3 +360,141 @@ section.sixth {
       transition: .3s; }
   section.sixth .card-block {
     color: #9B9B9B; }
+
+section.seventh {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px 0; }
+  section.seventh .title {
+    font-size: 60px;
+    color: #969696;
+    font-family: NoeDisplay; }
+  section.seventh .descr {
+    color: #000;
+    font-size: 17px;
+    padding: 30px 0;
+    font-weight: 600; }
+  section.seventh .divider {
+    height: 7px;
+    background-color: #eee;
+    width: 100%;
+    margin-bottom: 30px; }
+  section.seventh .carousel {
+    margin-top: 20px; }
+    section.seventh .carousel .carousel-control {
+      color: #888; }
+    section.seventh .carousel .inn {
+      height: 80px;
+      position: relative; }
+      section.seventh .carousel .inn .abs {
+        text-align: center; }
+        section.seventh .carousel .inn .abs ul {
+          padding: 0;
+          margin: 0; }
+          section.seventh .carousel .inn .abs ul li {
+            display: inline-block;
+            margin: 0 30px; }
+            section.seventh .carousel .inn .abs ul li img {
+              width: 120px;
+              -webkit-filter: grayscale(100%);
+                      filter: grayscale(100%);
+              -webkit-transition: .3s;
+              transition: .3s; }
+              section.seventh .carousel .inn .abs ul li img:hover {
+                -webkit-filter: grayscale(0%);
+                        filter: grayscale(0%);
+                -webkit-transition: .3s;
+                transition: .3s;
+                cursor: pointer; }
+
+section.eighth {
+  background-image: url(../img/join.png);
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  padding: 30px 0; }
+  section.eighth .title {
+    color: #fff;
+    font-size: 50px;
+    font-family: NoeDisplay; }
+    section.eighth .title .divider {
+      height: 6px;
+      width: 198px;
+      background-color: rgba(255, 255, 255, 0.3); }
+  section.eighth .descr a {
+    color: #EAB146;
+    text-transform: uppercase;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 182px;
+    padding: 10px;
+    font-weight: 600;
+    margin-top: 26px; }
+
+section.nineth {
+  background-color: #06557E;
+  padding: 30px 0;
+  font-size: 20px; }
+  section.nineth img {
+    margin-right: 10px; }
+  section.nineth .email-tit {
+    color: #88ADCA;
+    margin-bottom: 10px; }
+  section.nineth .phone-tit {
+    color: #88ADCA;
+    margin-bottom: 10px; }
+  section.nineth .email {
+    color: #5D904E;
+    text-decoration: none; }
+  section.nineth .phone {
+    color: #EAB146; }
+  section.nineth .divider {
+    width: 100%;
+    height: 6px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 40px 0 35px; }
+  section.nineth .follow span {
+    float: left;
+    color: #88ADCA;
+    margin-top: -2px;
+    margin-right: 30px; }
+  section.nineth .follow ul {
+    padding: 0;
+    margin: 0; }
+    section.nineth .follow ul li {
+      display: inline-block;
+      list-style: none;
+      margin: 0 5px; }
+      section.nineth .follow ul li div {
+        height: 25px;
+        width: 25px;
+        background-size: 100%;
+        border-radius: 50%; }
+  section.nineth .form input[type="text"] {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 3px 4px;
+    color: #fff; }
+  section.nineth .form input[type="submit"] {
+    background-color: transparent;
+    border: 2px solid rgba(100, 100, 255, 0.2);
+    padding: 4px 18px;
+    color: #fff;
+    font-weight: 100;
+    margin-left: -4px;
+    text-transform: uppercase;
+    -webkit-transition: .3s;
+    transition: .3s; }
+    section.nineth .form input[type="submit"]:hover {
+      background-color: rgba(100, 100, 255, 0.2);
+      -webkit-transition: .3s;
+      transition: .3s; }
+
+footer {
+  background-color: #002037;
+  width: 100%;
+  padding: 30px 0;
+  color: rgba(255, 255, 255, 0.5); }
