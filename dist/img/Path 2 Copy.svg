@@ -1,1 +1,12 @@
-<svg width="30" height="51" viewBox="0 0 30 51" xmlns="http://www.w3.org/2000/svg"><title>Path 2 Copy</title><path d="M3 47.534L25.374 25.16 3.214 3" stroke="#FFF" stroke-width="6" fill="none" stroke-linecap="round" opacity=".5"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="51px" viewBox="0 0 30 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 2 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" opacity="0.5">
+        <g id="02-doubler-page" transform="translate(-1268.000000, -320.000000)" stroke="#FFFFFF" stroke-width="6">
+            <polyline id="Path-2-Copy" transform="translate(1282.187147, 345.267089) rotate(-90.000000) translate(-1282.187147, -345.267089) " points="1259.92006 334.079942 1282.29435 356.454236 1304.45424 334.294352"></polyline>
+        </g>
+    </g>
+</svg>
