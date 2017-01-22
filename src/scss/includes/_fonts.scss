@@ -1,4 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:600');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@font-face {
+	font-family: Lato;
+	src: url(../libs/fonts/Lato/Lato-Regular.ttf);
+}
 
+@font-face {
+	font-family: NoeDisplay;
+	src: url(../libs/fonts/NoeDisplay/NoeDisplay-Regular.otf);
+}
+
+@font-face {
+      font-family: 'fontello';
+      src: url('../libs/fonts/Fontello/fontello.eot?15328950');
+      src: url('../libs/fonts/Fontello/fontello.eot?15328950#iefix') format('embedded-opentype'),
+           url('../libs/fonts/Fontello/fontello.woff?15328950') format('woff'),
+           url('../libs/fonts/Fontello/fontello.ttf?15328950') format('truetype'),
+           url('../libs/fonts/Fontello/fontello.svg?15328950#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
