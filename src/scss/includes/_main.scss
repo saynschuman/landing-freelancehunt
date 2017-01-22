@@ -2,11 +2,49 @@ body {
 	font-family: Lato;
 }
 
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+    margin-right: 90px;
+    font-size: 30px;
+    font-family: NoeDisplay;
+    color: #253F50;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid #fff;
+}
+
+.navbar-default .navbar-nav > li.create > a {
+	color:  #FCA500;
+}
+
+.navbar-default .navbar-nav > li > a.sign {
+	color: #253F50;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+    text-transform: uppercase;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: transparent;
+}
+
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
 	width: 100%;
-
 }
-// bootstrap reset (menu)
+
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
   margin-left: -15px;
   margin-right: 90px;
@@ -126,5 +164,33 @@ section.second {
 	.sub_1 {
 		color: #C69E2F;
 		font-size: 28px;
+	}
+}
+section.third {
+	width: 100%;
+	background-color: #F4F4F4;
+	padding: 20px 0;
+	.title {
+		font-size: 60px;
+		color: #000;
+		font-family: NoeDisplay;
+	}
+	.descr {
+		color: #000;
+		font-size: 17px;
+		padding: 30px 0;
+		font-weight: 600;
+	}
+	.divider {
+		height: 12px;
+		background-color: #eee;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.content {
+		color: #ADADAD;
+	}
+	.list {
+		color: #ACCD88;
 	}
 }
